@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 var git = require("git-lib");
+var prompt = require("./lib/prompt");
 require("colors");
 
 git.isGit().then(function(){
