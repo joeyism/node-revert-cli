@@ -6,10 +6,25 @@
   "scripts": {
     "test": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha"
   },
+  "repository":{
+    "type":"git",
+    "url":"git+https://github.com/joeyism/node-revert-cli.git"
+  },
   "bin": {
     "revert": "index.js"
   },
   "author": "Joey Sham <sham.joey@gmail.com> (http://www.joeyism.com)",
+  "bugs":{
+    "url": "https://github.com/joeyism/node-revert-cli/issues"
+  },
+  "homepage": "https://github.com/joeyism/node-revert-cli#readme",
+  "keywords": [
+    "git",
+    "revert",
+    "checkout",
+    "uncommit",
+    "cli"
+  ],
   "license": "ISC",
   "dependencies": {
     "colors": "^1.1.2",
